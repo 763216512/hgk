@@ -1,0 +1,21 @@
+c:\users\d001\documents\visual studio 2012\Projects\LostAndFound\LostAndFound\bin\LostAndFound.dll
+c:\users\d001\documents\visual studio 2012\Projects\LostAndFound\LostAndFound\bin\LostAndFound.pdb
+c:\users\d001\documents\visual studio 2012\Projects\LostAndFound\LostAndFound\obj\Debug\LostAndFound.csprojResolveAssemblyReference.cache
+c:\users\d001\documents\visual studio 2012\Projects\LostAndFound\LostAndFound\obj\Debug\LostAndFound.dll
+c:\users\d001\documents\visual studio 2012\Projects\LostAndFound\LostAndFound\obj\Debug\LostAndFound.pdb
+C:\Users\admin\Desktop\LostAndFound\LostAndFound\bin\LostAndFound.dll
+C:\Users\admin\Desktop\LostAndFound\LostAndFound\bin\LostAndFound.pdb
+C:\Users\admin\Desktop\LostAndFound\LostAndFound\obj\Debug\LostAndFound.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\LostAndFound\LostAndFound\obj\Debug\LostAndFound.dll
+C:\Users\admin\Desktop\LostAndFound\LostAndFound\obj\Debug\LostAndFound.pdb
+C:\Users\admin\Desktop\失物招领\LostAndFound\LostAndFound\bin\LostAndFound.dll
+C:\Users\admin\Desktop\失物招领\LostAndFound\LostAndFound\bin\LostAndFound.pdb
+C:\Users\admin\Desktop\失物招领\LostAndFound\LostAndFound\obj\Debug\LostAndFound.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\失物招领\LostAndFound\LostAndFound\obj\Debug\LostAndFound.dll
+C:\Users\admin\Desktop\失物招领\LostAndFound\LostAndFound\obj\Debug\LostAndFound.pdb
+E:\失物招领项目\LostAndFound\LostAndFound\bin\LostAndFound.dll.config
+E:\失物招领项目\LostAndFound\LostAndFound\bin\LostAndFound.dll
+E:\失物招领项目\LostAndFound\LostAndFound\bin\LostAndFound.pdb
+E:\失物招领项目\LostAndFound\LostAndFound\obj\Debug\LostAndFound.csprojResolveAssemblyReference.cache
+E:\失物招领项目\LostAndFound\LostAndFound\obj\Debug\LostAndFound.dll
+E:\失物招领项目\LostAndFound\LostAndFound\obj\Debug\LostAndFound.pdb

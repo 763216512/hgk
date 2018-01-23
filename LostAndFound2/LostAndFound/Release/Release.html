@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>石河子大学</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover" />
+    <link href="Release.css" rel="stylesheet" />
+    <link href="../WeUI/dist/example/example.css" rel="stylesheet" />
+    <link href="../WeUI/dist/style/weui.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <div class="weui-cells weui-cells_form">
+            <div class="weui-cell"style="margin-top:-10px;">
+                <div class="weui-cell__bd">
+
+                    <div class="weui-uploader">
+                        <div class="weui-uploader__hd">
+                            <p class="weui-uploader__title" style="float:left;padding-top:20px; ">图片上传</p>
+                            <div class="weui-uploader__info">0/1</div>
+                        </div>
+
+                        <div class="weui-uploader__bd">
+                            <ul class="weui-uploader__files" id="uploaderFiles">
+                                <li class="weui-uploader__file" style="background-image:url(../WeUI/pic/man.png)"></li>
+                                <li class="weui-uploader__file weui-uploader__file_status" style="background-image:url(../WeUI/pic/man.png)">
+                                    <div class="weui-uploader__file-content">
+                                        <i class="weui-icon-warn"></i>
+                                    </div>
+                                </li>
+                                <li class="weui-uploader__file weui-uploader__file_status" style="background-image:url(../WeUI/pic/man.png)">
+                                    <div class="weui-uploader__file-content">50%</div>
+                                </li>
+                            </ul>
+                            <div class="weui-uploader__input-box">
+                                <input id="uploaderInput" class="weui-uploader__input" type="file" accept="image/*" multiple="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+   <section class="form">
+            <div class="frm " >
+                <p class="frmt" style="float:left;padding-top:20px; ">寻找类型</p>
+                <div class="which " style="padding-top:20px; padding-left:110px;">
+                    <label>
+                        <input type="radio" name="which" value="1" checked="">寻物
+                    </label>
+                    <label padding-left:150px;>
+                        <input type="radio" name="which" value="2">寻主
+                    </label>
+                </div>
+   
+            </div>
+            <div class="frm ">
+                <p class="frmt" style="float:left;padding-top:20px;">物品名称</p>
+                <div style="padding-top:15px;padding-left:110px;">
+                    <input  class="weui-input" style="border:none;" type="text" placeholder="最多25个字" name="name" maxlength="25" >
+                </div>
+            </div>
+            <div class="frm">
+                <p class="frmt" style="float:left;padding-top:20px;">物品描述</p>
+                <div class="frmc"style="padding-top:20px;padding-left:110px;">
+                    <input   class="weui-input"  style="border:none;" type="text" name="describe" multiple="" placeholder="请对物品进行描述">
+                </div>
+
+            </div>
+            <div class="frm">
+                <p class="frmt place" style="float:left;padding-top:20px;">丢失地点</p>
+                <div class="frmc"style="padding-top:20px;padding-left:110px;">
+                    <input   class="weui-input" style="border:none;" type="text" name="place">
+                </div>
+
+            </div>
+            <div class="frm">
+                <p class="frmt select"style="float:left;padding-top:20px;">选择分类</p>
+                <div class="frmc"><b id="selectType"><span class="selectvalue"></span><i class="i iarrow"></i></b></div>
+                <input type="hidden" name="type">
+
+            </div>
+            <div class="frm">
+                <p class="frmt" style="float:left;padding-top:20px;">QQ号</p>
+                <div class="frmc"style="padding-top:20px;padding-left:110px;">
+                    <input   class="weui-input"  style="border:none;" type="text" name="qq" value="">
+                </div>
+ 
+            </div>
+            <div class="frm">
+                <p class="frmt" style="float:left;padding-top:20px;">手机号</p>
+                <div class="frmc"style="padding-top:20px;padding-left:110px;">
+                    <input  class="weui-input"  style="border:none;" type="text" name="tel" value="" placeholder="选填">
+                </div>
+            </div>
+        </section>     
+    
+        
+
+
+
+
+
+   <div class="weui-tabbar" style="position: fixed;">
+            <a href="../index.html" class="weui-tabbar__item">
+                <span style="display: inline-block; position: relative;">
+                    <img src="../WeUI/dist/example/images/icon_tabbar.png" alt="" class="weui-tabbar__icon" />
+                </span>
+                <p class="weui-tabbar__label">失物</p>
+            </a>
+            <a href="../found.html" class="weui-tabbar__item">
+                <img src="../WeUI/dist/example/images/icon_tabbar.png" alt="" class="weui-tabbar__icon" />
+                <p class="weui-tabbar__label">招领</p>
+            </a>
+            <div style="background-color: #d6d6d6; width: 25%;">
+                <a href="../javascript:;" class="weui-tabbar__item weui-bar__item_on">
+                    <span style="display: inline-block; position: relative;">
+                        <img src="../WeUI/dist/example/images/icon_tabbar.png" alt="" class="weui-tabbar__icon" />
+                    </span>
+                    <p class="weui-tabbar__label">发布</p>
+                </a>
+            </div>
+            <a href="../personal.html" class="weui-tabbar__item">
+                <img src="../WeUI/pic/man.png" alt="" class="weui-tabbar__icon" />
+                <span class="weui-badge weui-badge_dot" style="position: absolute; top: 0;"></span>
+                <p class="weui-tabbar__label">个人中心</p>
+            </a>
+        </div>
+    </div>
+    <div class="page__bd">
+        <div class="weui-gallery" id="gallery" style="opacity: 0; display: none;">
+            <span class="weui-gallery__img" id="galleryImg" style="background-image:url(./images/pic_160.png)"></span>
+            <div class="weui-gallery__opr">
+                <a href="javascript:" class="weui-gallery__del">
+                    <i class="weui-icon-delete weui-icon_gallery-delete"></i>
+                </a>
+            </div>
+        </div>
+
+
+
+
+        
+
+
+
+    </div>
+
+    <script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="https://res.wx.qq.com/open/libs/weuijs/1.0.0/weui.min.js"></script>
+    <script src="WeUI/dist/example/zepto.min.js"></script>
+    </body>
+
+</html>
